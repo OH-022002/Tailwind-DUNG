@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+   h2 {
+      @apply font-inter font-extrabold leading-[62px] text-[40px] text-center max-w-screen-md  m-auto ;
+    }
+    h3{
+        @apply text-center font-inter text-[32px] font-bold leading-[42px] ;
+    }
+    p{
+        @apply font-inter text-center text-gray-400 ;
+    }
+    h4{
+      @apply font-inter text-2xl font-bold leading-[34px] ;
+  }
+  }
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#25282C ;
+    opacity: 0.5;
+    min-width: 100px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
